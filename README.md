@@ -34,18 +34,17 @@ if (!(std::cin >> password_selection)) {
 
 ### Main Menu
 
-![Main Menu](menu.png)
+![Main Menu](PasswordGenerator/menu.png)
 
 ### Password Generation
 
-![Password Generation](generator.png)
+![Password Generation](PasswordGenerator/generator.png)
 
 ### Entropy Analysis
 
-![Entropy Analysis](entropy.png)
+![Entropy Analysis](PasswordGenerator/entropy.png)
 
 ### Password Strength Table
 
-![Password Strength Table](entropy_list.png)
-
+![Password Strength Table](PasswordGenerator/entropy_list.png)
 
