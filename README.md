@@ -20,16 +20,6 @@ E = L × log₂(R)
 - L = password length
 - R = number of possible characters
 
-## Password Strength Levels
-
-| Entropy |Strength |
-|---|---|
-| < 40 | Very Weak |
-| 40 - 59 | Weak |
-| 60 - 79 | Moderate |
-| 80 - 99 | Strong |
-| 100 - 127 | Very Strong |
-| >= 128 | Extremely Strong |
 
 ## Input Validation Example
 
@@ -38,5 +28,24 @@ if (!(std::cin >> password_selection)) {
     std::cin.clear();
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
+````
+
+## Preview
+
+### Main Menu
+
+![Main Menu](menu.png)
+
+### Password Generation
+
+![Password Generation](generator.png)
+
+### Entropy Analysis
+
+![Entropy Analysis](entropy.png)
+
+### Password Strength Table
+
+![Password Strength Table](entropy_list.png)
 
 
