@@ -22,7 +22,7 @@ E = L × log₂(R)
 
 ## Password Strength Levels
 
-| Entropy | Strength |
+| Entropy |Strength |
 |---|---|
 | < 40 | Very Weak |
 | 40 - 59 | Weak |
